@@ -1,75 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Matheus Smangorzewski | Engenheiro Civil e Construtor</title>
-  <meta name="description" content="Matheus Smangorzewski - Engenheiro Civil e construtor de casas pré-fabricadas. Projetos arquitetônicos e complementares, cálculos estruturais, perícias, execução de obras.">
-  <meta name="robots" content="index,follow">
-  <link rel="canonical" href="https://matheussmangorzewski.github.io/">
-  <!-- Dados estruturados básicos (Person + Occupation) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Matheus Smangorzewski",
-    "jobTitle": "Engenheiro Civil",
-    "url": "https://matheussmangorzewski.github.io",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Engenharia Civil | Casas Pré-Fabricadas"
-    }
-  }
-  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matheus Smangorzewski - Engenheiro Civil</title>
   <style>
-    :root { --bg:#0f172a; --light:#f8fafc; --muted:#e2e8f0; --brand:#2563eb; }
-    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial}
-    header{background:var(--bg);color:var(--light);padding:48px 16px;text-align:center}
-    header h1{margin:0 0 8px;font-size:clamp(28px,5vw,40px)}
-    header p{margin:0;opacity:.9}
-    .wrap{max-width:1000px;margin:auto;padding:24px 16px}
-    .grid{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
-    section h2{margin:0 0 12px;border-left:4px solid var(--brand);padding-left:10px}
-    ul{padding-left:18px;margin:0}
-    .card{border:1px solid var(--muted);border-radius:14px;padding:18px}
-    footer{padding:24px 16px;text-align:center;color:#334155}
-    a.button{display:inline-block;background:var(--brand);color:#fff;padding:12px 16px;border-radius:10px;text-decoration:none}
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #1e3d59;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      max-height: 120px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    header p {
+      font-size: 18px;
+      margin: 5px 0;
+    }
+    .lema {
+      font-style: italic;
+      margin-top: 10px;
+      color: #ffd700;
+    }
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: #fff;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    }
+    footer {
+      background: #1e3d59;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    footer a {
+      color: #ffd700;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
   <header>
+    <img src="img/logo.png" alt="Logo Matheus Smangorzewski">
     <h1>Matheus Smangorzewski</h1>
     <p>Engenheiro Civil & Construtor de Casas Pré-Fabricadas</p>
+    <p class="lema">“Construindo com qualidade, confiança e inovação para transformar sonhos em realidade.”</p>
   </header>
 
-  <main class="wrap">
-    <section class="grid">
-      <div class="card">
-        <h2>Sobre</h2>
-        <p>Sou Engenheiro Civil e atuo também como construtor de casas pré-fabricadas. Desenvolvo projetos arquitetônicos e complementares, cálculos estruturais e execução de obras com foco em qualidade, eficiência e custo-benefício.</p>
-      </div>
-      <div class="card">
-        <h2>Serviços</h2>
-        <ul>
-          <li>Projetos arquitetônicos e complementares</li>
-          <li>Construção de casas pré-fabricadas (madeira)</li>
-          <li>Cálculos estruturais e orçamentos</li>
-          <li>Perícias e avaliações</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h2>Contato</h2>
-        <p>📧 <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a><br>
-           📞 (XX) XXXX-XXXX<br>
-           📍 Sua cidade/UF</p>
-        <p><a class="button" href="mailto:seuemail@exemplo.com">Solicitar orçamento</a></p>
-      </div>
-    </section>
-  </main>
+  <section>
+    <h2>Sobre mim</h2>
+    <p>Sou engenheiro civil especializado em projetos e execução de casas pré-fabricadas. Atuo com compromisso, qualidade e inovação para transformar sonhos em realidade. Minha área de atuação é na região de <strong>Mafra e Itaiópolis - Santa Catarina</strong>.</p>
+  </section>
+
+  <section>
+    <h2>Galeria de Projetos</h2>
+    <div class="gallery">
+      <img src="img/projeto1.jpg" alt="Casa pré-fabricada - Projeto 1">
+      <img src="img/projeto2.jpg" alt="Casa pré-fabricada - Projeto 2">
+      <img src="img/projeto3.jpg" alt="Casa pré-fabricada - Projeto 3">
+      <img src="img/projeto4.jpg" alt="Casa pré-fabricada - Projeto 4">
+      <img src="img/projeto5.jpg" alt="Casa pré-fabricada - Projeto 5">
+      <img src="img/projeto6.jpg" alt="Casa pré-fabricada - Projeto 6">
+    </div>
+  </section>
+
+  <section>
+    <h2>Contato</h2>
+    <p>📱 WhatsApp: <a href="https://wa.me/5547991895397" target="_blank">Clique aqui para conversar</a></p>
+    <p>📸 Instagram: <a href="https://www.instagram.com/eng_matheussmangorzewski" target="_blank">@eng_matheussmangorzewski</a></p>
+  </section>
 
   <footer>
-    © <span id="y"></span> Matheus Smangorzewski — Engenheiro Civil
+    <p>© 2025 - Matheus Smangorzewski | Engenheiro Civil</p>
   </footer>
-  <script>document.getElementById("y").textContent=new Date().getFullYear()</script>
 </body>
 </html>
